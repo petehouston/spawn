@@ -21,9 +21,5 @@
         "psr-4": {
             "Petehouston\\Spawn\\": "src/"
         }
-    },
-    "source": {
-        "url": "https://github.com/petehouston/spawn.git",
-        "type": "git"
     }
 }

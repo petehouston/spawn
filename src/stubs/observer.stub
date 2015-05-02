@@ -1,10 +1,10 @@
 <?php namespace App\Observers;
 
-class {{model}}Observer
+class {{class}}Observer
 {
 
     /**
-     * Handle {{model}} creating event
+     * Handle {{class}} creating event
      */
     public function creating($data)
     {
@@ -12,7 +12,7 @@ class {{model}}Observer
     }
 
     /**
-     * Handle {{model}} created event
+     * Handle {{class}} created event
      */
     public function created($data)
     {
@@ -20,7 +20,7 @@ class {{model}}Observer
     }
 
     /**
-     * Handle {{model}} updating event
+     * Handle {{class}} updating event
      */
     public function updating($data)
     {
@@ -28,7 +28,7 @@ class {{model}}Observer
     }
 
     /**
-     * Handle {{model}} updated event
+     * Handle {{class}} updated event
      */
     public function updated($data)
     {
@@ -36,7 +36,7 @@ class {{model}}Observer
     }
 
     /**
-     * Handle {{model}} saving event
+     * Handle {{class}} saving event
      */
     public function saving($data)
     {
@@ -44,7 +44,7 @@ class {{model}}Observer
     }
 
     /**
-     * Handle {{model}} saved event
+     * Handle {{class}} saved event
      */
     public function saved($data)
     {

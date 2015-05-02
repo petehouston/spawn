@@ -9,7 +9,7 @@ class {{class}} extends Seeder
         /**
          * Your seeding code here.
          * For example:
-         *     {{class}}::create([
+         *     User::create([
          *         'key' => 'value'
          *     ]);
          */

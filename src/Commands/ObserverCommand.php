@@ -3,7 +3,7 @@
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 
-class SeedCommand extends GeneratorCommand
+class ObserverCommand extends GeneratorCommand
 {
     /**
      * The console command name.

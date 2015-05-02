@@ -1,4 +1,4 @@
-<?php namespace App\Observers;
+<?php namespace {{namespace}};
 
 class {{class}}
 {

@@ -53,8 +53,19 @@ class ObserverCommand extends GeneratorCommand
      * @param  string $name
      * @return string
      */
-    protected function getPath($name)
+    // protected function getPath($name)
+    // {
+    //     return './app/Observers/' . str_replace('\\', '/', $name) . '.php';
+    // }
+
+    /**
+     * Get the default namespace for the class.
+     *
+     * @param  string  $rootNamespace
+     * @return string
+     */
+    protected function getDefaultNamespace($rootNamespace)
     {
-        return './app/Observers/' . str_replace('\\', '/', $name) . '.php';
+        return $rootNamespace.'\Observers';
     }
 }

@@ -1,10 +1,9 @@
-<?php
-namespace Petehouston\Spawn\Commands;
+<?php namespace Petehouston\Spawn\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 
-class SeedMakeCommand extends GeneratorCommand
+class SeedCommand extends GeneratorCommand
 {
     /**
      * The console command name.

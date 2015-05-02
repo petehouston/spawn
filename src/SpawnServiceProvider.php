@@ -22,8 +22,10 @@ class SpawnServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerSeed();
+        $this->registerObserver();
 
     }
+
     /**
      * Register the make:seed generator.
      */
@@ -33,6 +35,14 @@ class SpawnServiceProvider extends ServiceProvider
             return $app['Petehouston\Spawn\Commands\SeedCommand'];
         });
         $this->commands('command.spawn.seed');
+    }
+
+    private function registerObserver()
+    {
+        $this->app->singleton('command.spawn.observer', function ($app) {
+            return $app['Petehouston\Spawn\Commands\ObserverCommand'];
+        });
+        $this->commands('command.spawn.observer');
     }
 
 }

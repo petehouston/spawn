@@ -1,5 +1,6 @@
 {
     "name": "petehouston/spawn",
+    "version": "master",
     "description": "Template generator for Laravel.",
     "keywords": ["laravel", "spawn", "templates", "generator"],
     "license": "MIT",
@@ -20,5 +21,9 @@
         "psr-4": {
             "Petehouston\\Spawn\\": "src/"
         }
+    },
+    "source": {
+        "url": "https://github.com/petehouston/spawn.git",
+        "type": "git"
     }
 }

@@ -1,0 +1,54 @@
+<?php namespace App\Observers;
+
+class {{model}}Observer
+{
+
+    /**
+     * Handle {{model}} creating event
+     */
+    public function creating($data)
+    {
+
+    }
+
+    /**
+     * Handle {{model}} created event
+     */
+    public function created($data)
+    {
+
+    }
+
+    /**
+     * Handle {{model}} updating event
+     */
+    public function updating($data)
+    {
+
+    }
+
+    /**
+     * Handle {{model}} updated event
+     */
+    public function updated($data)
+    {
+
+    }
+
+    /**
+     * Handle {{model}} saving event
+     */
+    public function saving($data)
+    {
+
+    }
+
+    /**
+     * Handle {{model}} saved event
+     */
+    public function saved($data)
+    {
+
+    }
+
+}

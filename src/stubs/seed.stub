@@ -1,0 +1,17 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class {{class}} extends Seeder
+{
+    public function run()
+    {
+        /**
+         * Your seeding code here.
+         * For example:
+         *     {{class}}::create([
+         *         'key' => 'value'
+         *     ]);
+         */
+    }
+}
